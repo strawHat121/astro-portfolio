@@ -12,21 +12,21 @@ type Config = {
   profile: {
     author: string;
     description?: string;
-  },
+  };
   settings: {
-    paginationSize: number,
-  },
-}
+    paginationSize: number;
+  };
+};
 
 type SocialLink = {
   icon: string;
   friendlyName: string; // for accessibility
   link: string;
-}
+};
 
 export const SUPPORTED_LANGUAGES = {
-  'en': 'en',
-  'es': 'es'
+  en: "en",
+  es: "es",
 };
 
 export const DEFAULT_LANG = SUPPORTED_LANGUAGES.en as SupportedLanguage;
@@ -36,13 +36,13 @@ export const siteConfig: Config = {
   description: ui[DEFAULT_LANG]["site.description"].text,
   lang: DEFAULT_LANG,
   profile: {
-    author: "Amy Dang",
-    description: ui[DEFAULT_LANG]["profile.description"].text
+    author: "Kinjalk Bajpai",
+    description: ui[DEFAULT_LANG]["profile.description"].text,
   },
   settings: {
-    paginationSize: 10
-  }
-}
+    paginationSize: 10,
+  },
+};
 
 /** 
   These are you social media links. 
@@ -53,26 +53,30 @@ export const SOCIAL_LINKS: Array<SocialLink> = [
   {
     icon: "mdi:github",
     friendlyName: "Github",
-    link: "https://github.com/kirontoo/astro-theme-cody",
+    link: "https://github.com/strawHat121",
   },
   {
     icon: "mdi:linkedin",
     friendlyName: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/kinjalkbajpai",
   },
   {
     icon: "mdi:email",
     friendlyName: "email",
-    link: "mailto:ndangamy@gmail.com",
+    link: "mailto:kinjalkbajpai@gmail.com",
   },
-  {
-    icon: "mdi:rss",
-    friendlyName: "rss",
-    link: "/rss.xml"
-  }
+  // {
+  //   icon: "mdi:rss",
+  //   friendlyName: "rss",
+  //   link: "/rss.xml",
+  // },
 ];
 
 // NOTE: match these entries with keys in `src/i18n/nav.ts`
-export const NAV_LINKS: Array<keyof typeof nav[SupportedLanguage]> = [
-  "home", "about", "blog", "projects", "archive"
+export const NAV_LINKS: Array<keyof (typeof nav)[SupportedLanguage]> = [
+  // "home", "about", "blog", "projects", "archive"
+  "home",
+  "about",
+  "blog",
+  "projects",
 ];
