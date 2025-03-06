@@ -6,7 +6,7 @@ pubDate: 'Feb 27 2025'
 #     url: '/blog-placeholder-about.jpg'
 #     alt: 'GitHub wallpaper'
 platform: Web
-stack: ['NestJS', 'Typescript', 'Prisma', 'Neon']
+stack: ['NestJS', 'Typescript', 'Prisma']
 website: https://nestjs-rest-api-x6fp.onrender.com/api
 github: https://github.com/strawHat121/NestJS-Rest-API
 ---
