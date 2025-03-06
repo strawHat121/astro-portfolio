@@ -1,12 +1,12 @@
 ---
-title: 'Youtube Videos (non tech)'
-description: 'Non Technical youtube videos I found interesting'
+title: 'Youtube Videos (interesting or fun)'
+description: 'Youtube videos I found interesting'
 pubDate: 'Feb 10 2025'
 # heroImage: 
 #   src: '/blog-placeholder-5.jpg'
 #   alt: 'blog placeholder'
 tags: ["youtube"]
-updatedDate: 'Feb 10 2025'
+updatedDate: 'Mar 6 2025'
 # series: "example"
 ---
 
@@ -17,3 +17,7 @@ updatedDate: 'Feb 10 2025'
 - [Peter Drury Poetric Commentary on Messi and Mbappe 2022 World Cup Final](https://www.youtube.com/watch?v=TDs-mOucJZc)
 
   Gives me chills everytime I watch.
+
+- [Dalinar is Unity! - Best of Graphic Audio - The Stormlight Archive - Oathbringer](https://www.youtube.com/watch?v=B3FmA0HFhUw)
+
+  The most thrilling moment of a book I've ever read.
