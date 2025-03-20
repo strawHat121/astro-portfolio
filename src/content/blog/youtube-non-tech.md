@@ -6,7 +6,7 @@ pubDate: 'Feb 10 2025'
 #   src: '/blog-placeholder-5.jpg'
 #   alt: 'blog placeholder'
 tags: ["youtube"]
-updatedDate: 'Mar 6 2025'
+updatedDate: 'Mar 06 2025'
 # series: "example"
 ---
 

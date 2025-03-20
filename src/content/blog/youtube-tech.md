@@ -5,7 +5,7 @@ pubDate: 'Feb 10 2025'
 # heroImage: 
 #   src: '/blog-placeholder-5.jpg'
 #   alt: 'blog placeholder'
-tags: ["youtube", "tech"]
+tags: ["youtube", "tech", "code"]
 updatedDate: 'Feb 10 2025'
 # series: "example"
 ---
