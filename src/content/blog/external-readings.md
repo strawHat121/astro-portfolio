@@ -1,5 +1,5 @@
 ---
-title: 'Articles to become better'
+title: 'Articles for upskilling in life'
 description: 'General articles about how to improve oneself in life.'
 pubDate: 'Mar 20 2025'
 # heroImage: 
